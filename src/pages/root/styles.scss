@@ -1,0 +1,24 @@
+.root__section {
+  margin: 2rem 0;
+  overflow-x: hidden;
+}
+
+.root__control {
+  position: sticky;
+  top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .root__control {
+    display: flex;
+    width: 100%;
+    & > input {
+      flex: 1
+    }
+    & > select {
+      flex: 0;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.table {
+  border: none;
+  font-size: 14px;
+  color: #ccc;
+  line-height: 22px;
+  margin: 33px 0 29px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table__heading {
+  background: #14232e;
+  border-bottom: 1px solid #374146;
+  padding: 9px 20px 8px 19px;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.table__cell {
+  border-top: 1px solid rgba(55,65,70,0.5);
+  padding: 20px 20px 15px 19px;
+  vertical-align: top;
+}
+
+.table__body {
+  border-bottom: 1px solid rgba(55,65,70,0.5);
+  overflow: auto;
+}
